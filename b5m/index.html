@@ -3,7 +3,43 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>超划算购物返利网，折扣最多的返利网</title>
+	<style type="text/css">
+#owl-demo{position:relative;width:800px;height:361px;margin:0 auto;}
+#owl-demo .item{ position:relative;display:block;}
+#owl-demo img{display:block;width:800px;height:361px;}
+#owl-demo b{position:absolute;left:0;bottom:0;width:100%;height:78px;background-color:#000;opacity:.5;filter:alpha(opacity=50);}
+#owl-demo span{position:absolute;left:0;bottom:37px;width:100%;font:18px/32px "微软雅黑","黑体";color:#fff;text-align:center;}
+
+.owl-pagination{position:absolute;left:0;bottom:10px;width:100%;height:22px;text-align:center;}
+.owl-page{display:inline-block;width:16px;height:16px;margin:0 5px; background-color:#666; border-radius:50%; /*background-image:url(images/bg15.png);*/*display:inline;*zoom:1;}
+.owl-pagination .active{display:inline-block; width:16px; height:20px; border-radius:0 !important;  background-image:url(images/bg16.png) /*no-repeat*/;}
+.owl-buttons{display:none;}
+.owl-buttons div{position:absolute;top:50%;width:40px;height:80px;margin-top:-40px;text-indent:-9999px;}
+.owl-prev{left:0;background-image:url(images/bg17.png);}
+.owl-next{right:0;background-image:url(images/bg18.png);}
+.owl-prev:hover{background-image:url(images/bg19.png);}
+.owl-next:hover{background-image:url(images/bg20.png);}
+</style>
 	<link rel="stylesheet" type="text/css" href="style/css.css">
+	<link rel="stylesheet" href="style/owl.carousel.css" />
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#owl-demo').owlCarousel({
+		items: 1,
+		navigation: true,
+		navigationText: ["上一个","下一个"],
+		autoPlay: true,
+		stopOnHover: true
+	}).hover(function(){
+		$('.owl-buttons').show();
+	}, function(){
+		$('.owl-buttons').hide();
+	});
+});
+</script>
 </head>
 <body>
 	<div id="page">
@@ -168,13 +204,13 @@
 										
 									</span>
 								
-								<div class="main-cate">
-									<a href="#">手机</a>
-									<a href="#">数码</a>
-									<a href="#">影音</a>
-									<a href="#">配件</a>
-								</div>
-								<div class="sub-item" id="sub-mobile"  style="display:block">
+									<div class="main-cate">
+										<a href="#">手机</a>
+										<a href="#">数码</a>
+										<a href="#">影音</a>
+										<a href="#">配件</a>
+									</div>
+								<div class="sub-item" id="sub-mobile" style="display:none;">
 									<div class="sub_wp">
 										<div class="sub-in">
 											<dl>
@@ -252,13 +288,365 @@
 												</dd>
 											</dl>
 										</div>
+										<div class="hot-brand">
+											<h4>热门品牌</h4>
+											<ul class="brand-list">
+												<li>
+													<a href="#">
+														<img lazy-src="images/keji.png" alt="科技" src="images/keji.png">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img lazy-src="images/keji.png" alt="科技" src="images/lizhi.png">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img lazy-src="images/keji.png" alt="科技" src="images/keji.png">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img lazy-src="images/keji.png" alt="科技" src="images/keji.png">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img lazy-src="images/keji.png" alt="科技" src="images/keji.png">
+													</a>
+												</li>
+											</ul>
+											<a href="#" class="brand-recommed">
+												<img lazy-src="" alt="生活" src="images/renmenxiaoshuo.jpg">
+											</a>
+										</div>
 									</div>
 								</div>
 							  </li>
+						
+						
+
 							</ul>
 						</div>
 					</div>
+				
 				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="cont cf">
+				
+					<div class="cont-l">
+						<!-- <div class="cont-tab">ddd</div> -->
+					</div>
+					<div class="cont-c">
+						<div id="owl-demo" class="owl-carousel">
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/1.jpg" alt="">
+							<!-- <b></b><span>巴西训练内马尔受伤 吓坏队友</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/2.jpg" alt="">
+							<!-- <b></b><span>搜狐直击德国训练 众星拼抢激烈</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/3.jpg" alt="">
+							<!-- <b></b><span>西班牙备战演功夫足球 哈维蝎子摆尾</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/4.jpg" alt="">
+							<!-- <b></b><span>印第安美女追捧德国 特色服饰助威抢镜</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/5.jpg" alt="">
+							<!-- <b></b><span>锐体育：回望1958年世界杯</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/6.jpg" alt="">
+							<!-- <b></b><span>搜狐视频《世界杯特别报道》 发布会众星云集</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/7.jpg" alt="">
+							<!-- <b></b><span>梅西vs罗谁能笑傲巴西世界杯</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/8.jpg" alt="">
+							<!-- <b></b><span>梅西vs罗谁能笑傲巴西世界杯</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/9.jpg" alt="">
+							<!-- <b></b><span>梅西vs罗谁能笑傲巴西世界杯</span> --></a>
+							<a class="item" href="http://www.17sucai.com/" target="_blank"><img src="img/10.jpg" alt=""></a>
+							
+						</div>
+						<div class="banner-link-pic">
+							<a target="blank" href="#">
+								<b class="pro-title" title="新鲜红肉沙田柚">新鲜红柚沙田柚 约5斤</b>
+								<span class="pro-price" title="35元">
+									<b>35</b>元
+								</span>
+								<img src ="img/banner1.jpg">
+
+							</a>
+							<a target="blank" href="#">
+								<b class="pro-title" title="新鲜红肉沙田柚">新鲜红柚沙田柚 约5斤</b>
+								<span class="pro-price" title="35元">
+									<b>35</b>元
+								</span>
+								<img src="img/banner1.jpg">
+							</a>
+							<a target="blank" href="#">
+								<b class="pro-title" title="新鲜红肉沙田柚">新鲜红柚沙田柚 约5斤</b>
+								<span class="pro-price" title="35元">
+									<b>35</b>元
+								</span>
+								<img src="img/banner1.jpg">
+							</a>
+							<a target="blank" href="#">
+								<b class="pro-title" title="新鲜红肉沙田柚">新鲜红柚沙田柚 约5斤</b>
+								<span class="pro-price" title="35元">
+									<b>35</b>元
+								</span>
+								<img src="img/banner1.jpg">
+							</a>
+							
+
+
+							
+						</div>
+					</div> 
+                 	
+					 <!-- 图片翻滚 -->
+					<div class="cont-r">
+						<div class="b5m-notice">
+							<h2 class="title">
+								<i class="ico_notice"></i>
+								帮帮快讯
+							</h2>
+							<a href="#" traget="blank" class="notice_list" style="color:#f18100; font-weight:bold; " >
+								<b>[公告]</b>
+								<p>自动租费vip</p>
+							</a>
+							<a href="#" traget="blank" class="notice_list" style="color:#f18100; font-weight:bold;">
+								<b>[公告]</b>
+								<p>超级任务调整</p>
+							</a>
+							<a href="#" traget="blank" class="notice_list">
+								<b>[公告]</b>
+								<p>每日签到下线通知</p>
+							</a>
+							<a href="#" traget="blank" class="notice_list">
+								<b>[活动]</b>
+								<p>超划算品牌护肤专品</p>
+							</a>
+							<a href="#" traget="blank" class="notice_list">
+								<b>[活动]</b>
+								<p>9/14初秋寒潮风向</p>
+							</a>
+
+						</div>
+						<div class="vip-info">
+							<div class="vip-top">
+								<div class="user-photo">
+									<a class="img-wrap" href="#">
+										<img lazy-src="mages/default-photo.png"  src="images/default-photo.png">
+									</a>
+									<i class="ico-crown"></i>
+								</div>
+								<div class="user-info">
+									<a class="user-name" hrref="#">
+										<span>Hi! 您好</span>
+									</a>
+									<a href="#">
+										<i class="ico-vip">vip</i>
+									</a>
+									<p class="vip-tips">王捷</p>
+									<div class="log-btn">
+										<a class="b5m-login" data-mps="login">登陆</a>
+										<a target="blank" href="#" class="b5m-reg">注册</a>
+									</div>
+								</div>
+							</div>
+							<div class="vip-bot">
+								<ul class="info-wrap">
+									<li class="info-list order-num">
+										<a href="#" target="blank">
+											<b class="num">----</b>
+											<span >订单数</span>
+										</a>
+									</li>
+									<li class="info-list subsidy-num">
+										<a href="#" traget="blank">
+											<b class="num">-----</b>
+											<span>帮帮补贴</span>
+										</a>
+									</li>
+									<li class="info-list vip-goods-num">
+										<a href="#" traget="blank">
+											<b class="num">----</b>
+											<span>反超级帮钻</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="right-tab-container index-tage-container">
+							<div cladss="bg-service">
+								<a class="al" target="self" href="javascript:; data-jcarouselcontrol="true></a>
+								<div class="list" data-jcarouesl="true">
+									<ul style="">
+										<li>
+											<a ><a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div id="J_0f" class="floor-tit superBuy" data-maps="">
+				<span class="floor-tit-num">1F</span>
+				<h3>
+					<a data-maps="" target="_blank" href="#">超划算</a>
+					<span class="floor-tit-desc">直降返利，优惠折扣享不停</span>
+				</h3>
+			</div>
+			<div class="floor-content floor-content-superBuy cf">
+				<div class="fl" data-mps="">
+					<p class="superbuy-img">
+						<a target="blank" href="#">
+							<img src="img/eafe23cc6f1708ed242e3b19196f2edb.jpg">
+						</a>
+					</p>
+				</div>
+				<div class="superBuy-box tab-tiem fr ">
+					<ul class="super-pro-list cf">
+					<li class="">
+						<a href="#">
+							<div class="discount-tag">
+								<p>返40%</p>
+								<b>3.5</b>
+								折
+							</div>
+							<div class="img-wrap">
+								<img src="">
+							</div>
+							<div class="pro-info">
+								<p class="pro-title">三井无硅油控油生姜防脱洗发水+老姜王生发液护发素 女神洗护套装</p>
+								<span class="now-price">￥176</span>
+								<i class="past-price">￥296</i>
+							</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<div class="discount-tag">
+								<p>返40%</p>
+								<b>3.5</b>
+								折
+							</div>
+							<div class="img-wrap">
+								<img src="">
+							</div>
+							<div class="pro-info">
+								<p class="pro-title">三井无硅油控油生姜防脱洗发水+老姜王生发液护发素 女神洗护套装</p>
+								<span class="now-price">￥176</span>
+								<i class="past-price">￥296</i>
+							</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<div class="discount-tag">
+								<p>返40%</p>
+								<b>3.5</b>
+								折
+							</div>
+							<div class="img-wrap">
+								<img src="">
+							</div>
+							<div class="pro-info">
+								<p class="pro-title">三井无硅油控油生姜防脱洗发水+老姜王生发液护发素 女神洗护套装</p>
+								<span class="now-price">￥176</span>
+								<i class="past-price">￥296</i>
+							</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<div class="discount-tag">
+								<p>返40%</p>
+								<b>3.5</b>
+								折
+							</div>
+							<div class="img-wrap">
+								<img src="">
+							</div>
+							<div class="pro-info">
+								<p class="pro-title">三井无硅油控油生姜防脱洗发水+老姜王生发液护发素 女神洗护套装</p>
+								<span class="now-price">￥176</span>
+								<i class="past-price">￥296</i>
+							</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<div class="discount-tag">
+								<p>返40%</p>
+								<b>3.5</b>
+								折
+							</div>
+							<div class="img-wrap">
+								<img src="">
+							</div>
+							<div class="pro-info">
+								<p class="pro-title">三井无硅油控油生姜防脱洗发水+老姜王生发液护发素 女神洗护套装</p>
+								<span class="now-price">￥176</span>
+								<i class="past-price">￥296</i>
+							</div>
+						</a>
+					</li>
+
+					<li class="">
+						<a href="#">
+							<div class="discount-tag">
+								<p>返40%</p>
+								<b>3.5</b>
+								折
+							</div>
+							<div class="img-wrap">
+								<img src="">
+							</div>
+							<div class="pro-info">
+								<p class="pro-title">三井无硅油控油生姜防脱洗发水+老姜王生发液护发素 女神洗护套装</p>
+								<span class="now-price">￥176</span>
+								<i class="past-price">￥296</i>
+							</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<div class="discount-tag">
+								<p>返40%</p>
+								<b>3.5</b>
+								折
+							</div>
+							<div class="img-wrap">
+								<img src="">
+							</div>
+							<div class="pro-info">
+								<p class="pro-title">三井无硅油控油生姜防脱洗发水+老姜王生发液护发素 女神洗护套装</p>
+								<span class="now-price">￥176</span>
+								<i class="past-price">￥296</i>
+							</div>
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<div class="discount-tag">
+								<p>返40%</p>
+								<b>3.5</b>
+								折
+							</div>
+							<div class="img-wrap">
+								<img src="">
+							</div>
+							<div class="pro-info">
+								<p class="pro-title">三井无硅油控油生姜防脱洗发水+老姜王生发液护发素 女神洗护套装</p>
+								<span class="now-price">￥176</span>
+								<i class="past-price">￥296<i>
+							</div>
+						</a>
+					</li>
+
+					<ul>
+				</div>
+			</div>	
+				
 			</div>
 		</div>
 	</div>
