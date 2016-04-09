@@ -210,7 +210,7 @@ em,i{font-stle:normal;}
   .mod_head .more{width:60px; height:30px; line-height:30px; font-size:12px; text-align:center; color:#999; position:absolute; top:0; right:0; } 
 
     .show_wrap .show_bd{width:100%; height:344px; padding-top:20px; }
-    .show_wrap .show_bd .mod_video{width:860px; height:344px; }
+    .show_bd .mod_video{width:860px; height:344px; }
     .mod_video li{float:left; width:195px; height:162px; background-color:#f5f5f5; margin-left:20px; position:relative; }
     .mod_video li.first{width:430px; height:344px; margin:0;}
     .mod_video li .img{display:block; width:195px; height:109px; overflow:hidden; position:relative; z-index:10;}
@@ -244,14 +244,14 @@ em,i{font-stle:normal;}
     .mod_h3{width:100%; height:42px; line-height:42px; border-bottom:1px solid #eaeaea; font-size:18px; font-weight:700; color:#333; position:relative; }
     .mod_h3 .more{display:block; width:50px; height:42px; line-height:42px; font-size:12px;font-weight:400; color:#999; position:absolute; top:0; right:0; }
     .hand_game{width:100%; margin-bottom:18px;}
-    .show_wrap .mod_video_r .hand_game li{width:100%; height:62px; margin-top:20px; position:relative; }
-    .show_wrap .mod_video_r .hand_game img{width:62px; height:62px; position:absolute; top:0; left:0; border-radius:12px; overflow:hidden; z-index:100;} 
-    .show_wrap .mod_video_r .hand_game p{text-indent:70px; position:relative; overflow:hidden; padding-right:60px;}
-    .show_wrap .mod_video_r .hand_game p.name{top:5px; left:0; height:28px; line-height:28px; font-size:14px; color:#333;}
-    .show_wrap .mod_video_r .hand_game p span{text-indent:0; position:absolute; top:0; right:0;}
-    .show_wrap .mod_video_r .hand_game p.name span{display:block; width:50px; height:30px; font-family:Constantia,'微软雅黑'; font-size:30px; color:#ff7800;}
-    .show_wrap .mod_video_r .hand_game p.des{height:20px; line-height:20px; margin-top:5px; color:#999;}
-        .show_wrap .mod_video_r .hand_game p.des span{top:4px; display:block; width:54px; height:16px; line-height:14px; text-align:center; color:#fff; background-color:#ff7800; }
+     .mod_video_r .hand_game li{width:100%; height:62px; margin-top:20px; position:relative; }
+     .mod_video_r .hand_game img{width:62px; height:62px; position:absolute; top:0; left:0; border-radius:12px; overflow:hidden; z-index:100;} 
+    .mod_video_r .hand_game p{text-indent:70px; position:relative; overflow:hidden; padding-right:60px;}
+    .mod_video_r .hand_game p.name{top:5px; left:0; height:28px; line-height:28px; font-size:14px; color:#333;}
+    .mod_video_r .hand_game p span{text-indent:0; position:absolute; top:0; right:0;}
+    .mod_video_r .hand_game p.name span{display:block; width:50px; height:30px; font-family:Constantia,'微软雅黑'; font-size:30px; color:#ff7800;}
+    .mod_video_r .hand_game p.des{height:20px; line-height:20px; margin-top:5px; color:#999;}
+     .mod_video_r .hand_game p.des span{top:4px; display:block; width:54px; height:16px; line-height:14px; text-align:center; color:#fff; background-color:#ff7800; }
      .hot_man li{width:142px; height:54px; float:left; margin-top:20px;}
      .hot_man li.li_l{margin-right:16px;} 
      .hot_man a{display:block; width:100%; height:100%; position:relative; overflow:hidden; }
@@ -259,5 +259,29 @@ em,i{font-stle:normal;}
      .hot_man span{position:absolute; }
      .hot_man span.name{width:66px; line-height:18px; top:10px; right:10px; color:#666;}
      .hot_man span.name_hover{display:none; width:40px; height:18px; line-height:18px; text-align:center; color:#74a901; border:1px solid #74a901; right:30px; top:15px;}
+     /*diy更改start*/
+     .diy_wrap{width:1180px; margin:0 auto
+      ;}
+      .diy_wrap .diy_bd{width:100%; height:344px; margin-top:20px;}
+      .diy_wrap .hot_writer{width:300px;}
+      .hot_men .l_li{margin-right:16px;}
+      .hot_men li{width:47.3%; height:54px; float:left; margin-top:20px;}
+      .hot_men a{display:block; width:100%; height:100%; position:relative; overflow:hidden; }
+      .hot_men span{position:absolute; }
+      .hot_men span.img{width:54px; height:54px; border-radius:27px; overflow:hidden;
+        top:0; left:0;}
+      .hot_men span.name{width:66px; line-height:18px; top:10px; right:10px; colorL#666;}
+      .hot_men span.name_hover{display:none; width:40px; height:18px; line-height:18px;text-align:center; color:#74a901; border:1px solid #74a901; right:30px; top:15px;}
+      .diy_wrap .the_door{padding-top:20px;}
+      .diy_wrap .the_door a{display:block; height:54px; line-height:54px; font-size:16px; text-indent:52px; }
+      .diy_wrap .the_door a i{display:inline-block; width:22px; height:20px; background-color:red;}
 
+      .diy_wrap .the_door a i.article{background-image:url(../img/write_icon.png);}
+      .diy_wrap .the_door a i.ad_icon{background-image:url(../img/ad_icon.png);}
+       /*diy更改end*/
+      
+    
+      
+      
+      
 

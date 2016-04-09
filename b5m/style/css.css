@@ -20,7 +20,7 @@ b{font-weight:bolder;}
 .topbar .icon-weixin{background-position:0 -53px; background-repeat:no-repeat;}
 .topbar .icon-weibo{background-position:0 -75px; background-repeat:no-repeat;}
 .topbar .b5m-slogan{line-height:31px; height:auto;}
-.topbar .b5m-msg{display:inline-block;}	
+.topbar .b5m-msg{display:inline-block;border:1px solid red;}	
 .topbar .b5m-msg .fa{color:#ff760f; margin-right:1px;font-size:inherit; font:normal normal normal 14px/1 FontAwesome;}
 .topbar .myorder{padding-left:17px; background:url(../images/tp-my-order.png) 0 2px no-repeat;}
 .topbar .mobile{padding-left:17px; background:url(../images/tp-my-phone.png) 4px 2px no-repeat;}
