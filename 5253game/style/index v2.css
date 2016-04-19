@@ -304,7 +304,7 @@ em,i{font-stle:normal;}
        .game_wrap .top_ul p.status{height:20px; line-height:20px; color:#999;}
        .game_wrap .top_ul .bottom{position:absolute; left:0; bottom:0; width:80%; height:49px; padding:0 10%; padding-top:6px; background-color:#e3e3e3; color:#999; line-height:22px; overflow:hidden;}
        .game_wrap .top_ul li:hover .bottom{color:#fff; background-color:#74a901;}
-       .game_wrap .bot_ul li{width:420px; height:188px; float:left; position:relative; } 
+       .game_wrap .bot_ul li{width:420px; height:188px; float:left; position:relative; background-color:#e3e3e3;} 
        .bot_ul .b_l{width:90px; height:100%; position:absolute; top:0; left:0; color:#fff; background-color:#e3e3e3}
        .bot_ul .top{display:block;margin-bottom:44px; width:90px; height:90px; position:relative;}
        .game_wrap .bot_ul .top span{position:absolute; bottom:0; right:0; padding:4px 8px; background-color:rgba(0,0,0,.5); color:#fff;}
@@ -312,9 +312,39 @@ em,i{font-stle:normal;}
        .game_wrap .bot_ul span.txt{display:block; width:100%; height:16px; margin-bottom:6px; }
        .game_wrap .bot_ul span.txt a{display:block; height:16px; line-height:16px;margin:0 16px 0 15px; text-align:center; color:#fff; background-color:#74a901;} 
        .game_wrap .bot_ul .b_r{width:329px; height:186px; background-color:#fff; position:absolute; top:1px; right:1px; overflow:hidden; }
-       .game_wrap .bot_ul .b_r.title{font-size:14px; color:#333; height:30px; line-height:30px; padding-right:80px; overflow:hidden; }
-       .game_wrap .bot_ul .b_r .more{width:54px; height:18px; line-height:18px; .text-align:center; background-color:#959595;}
+       .game_wrap .bot_ul .b_r .title{font-size:14px; color:#333; height:30px; line-height:30px; padding-right:80px; overflow:hidden; }
+       .game_wrap .bot_ul .b_r .more{width:54px; height:18px; line-height:18px; text-align:center; background-color:#959595; color:#fff; position:absolute; top:6px; right:16px; text-indent:0;}
+       .game_wrap .bot_ul .b_r .more:hover{background-color:#85c300;}
+       .game_wrap .bot_ul .b_r .name{position:relative; text-indent:38px; height:24px; line-height:24px; color:#666; overflow:hidden;}
+       .game_wrap .bot_ul .name i{width:14px; height:15px; background-image:url(../img/person_icon.png); position:absolute; top:4px; left:18px;}
+       .game_wrap .bot_ul .b_r ul{margin:18px 0 0 18px;} 
+       .game_wrap .bot_ul .b_r li{width:62px; height:100px; margin-right:15px; background:none; }
+       .game_wrap .bot_ul .b_r li:hover p{color:#74a901;}
+       .game_wrap .bot_ul .b_r .img{display:block; width:62px; height:62px; position:relative; border-radius:12px; overflow:hidden;}
+       .game_wrap .bot_ul .b_r li p{width:100%; height:30px; line-height:30px; color:#666; .text-indent:; overflow:hidden;}
 
+       .game_wrap .bot_ul li.li_r{margin-left:20px;}
+
+       .game_wrap .game_r{width:300px; }
+       .game_wrap .game_r .type_1{padding-top:27px;}
+       .game_wrap .game_r .type_1 li{width:44px; height:85px; float:left; margin-left:35px; }
+       .game_wrap .game_r .type_1 li:hover .text{color:#74a901;}
+       .game_wrap .game_r .type_1 li.first{margin-left:12px;}
+       .game_wrap .game_r .type_1 li a{display:block; width:100%; height:100%;}
+       .game_wrap .game_r .type_1 .img{display:block; width:44px; height:47px;}
+       .game_wrap .game_r .type_1 .android{background-image:url(../img/android.png);}
+       .game_wrap .game_r .type_1 .apple{background-image:url(../img/apple.png);}
+       .game_wrap .game_r .type_1 .online{background-image:url(../img/online.png);}
+       .game_wrap .game_r .type_1 .local{background-image:url(../img/local.png);}
+       .game_wrap .game_r .type_1 .text{display:block; margin-top:10px; height:30px; line-height:30px; text-align:center; color:#333;}  
+       .game_wrap .game_r .type_2 li{width:140px; height:78px; float:left; margin-top:16px;}
+       .game_wrap .game_r .type_2 li.li_l{margin-right:20px;}
+       .game_wrap .game_r .type_2 a{display:block; width:140px; height:78px; position:relative; overflow:hidden; }
+       .game_wrap .game_r .type_2 img{width:140px; height:78px; transition:all .5s ease; z-index:100;}
+       .game_wrap .game_r .type_2 span{width:100%; height:26px; line-height:26px; text-align:center; color:#fff; position:absolute; bottom:0; left:0; background-color:rgba(0,0,0,.3); overflow:hidden; z-index:1001;}
+       
+
+       
        /*ad end*/
       
       
